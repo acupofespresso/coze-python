@@ -97,6 +97,6 @@ def test_chat(bot_id: str, query: str, user: str = "coze", stream: bool = True):
 if __name__ == "__main__":
     Fire(
         {
-            "chat": test_chat,
+            "test_chat": test_chat,
         }
     )
